@@ -1,0 +1,98 @@
+#taustakuva { background-color:rgb(241, 233, 150);
+} 
+header { text-align: center; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif 
+      
+} 
+header {  color:palevioletred; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size:cover
+  
+  } 
+
+body { font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large
+}  
+h1 { text-align: center;
+  color: rgb(175, 100, 228);
+}  
+h2 { text-align: center;
+  color: rgb(175, 100, 228);
+}  
+h3, p { text-align: center;
+  color: palevioletred
+}   
+form{ text-align: center;
+  color:rgb(175, 100, 228);
+}  
+table, th, td  {
+    text-align: center;
+    background-color: pink;
+    border: 1px solid rgb(175, 100, 228);
+  border-radius: 10px;
+  color: palevioletred
+} 
+  
+ a:link {
+color: red;
+}
+a:visited {
+color:palevioletred
+    }
+ a:hover {
+color: hotpink;
+}
+ a:active {
+color: yellow;
+  }
+  
+  div.gallery {
+    border: 1px solid palevioletred
+  }
+  
+  div.gallery:hover {
+    border: 1px solid pink;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+footer { text-align:center
+
+}

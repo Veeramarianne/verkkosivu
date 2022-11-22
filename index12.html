@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heerrkkusivu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles08.css">
+</head>
+<body id="taustakuva">
+      <header class="donitsi" style="background-image: url('kuvat/donuts.jpeg')">
+        <div class="container position-relative px-4 px-lg-5">
+          <div class="row gx-4 gx-lg-5 justify-content-center">
+                
+                  <div class="site-heading"> 
+                    <h1 class="fw-bold">Herkkusivu</h1>
+                    <br>
+                    <br>
+                    <h2 class="fw-bold">Tilaus</h2>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-light" id="valikko">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Etusivu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index11.html">Galleria</a>
+            <a class="nav-link" href="index10.html">Ohjeet</a>
+            <a class="nav-link" href="index12.html">Tilaus</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <br>
+        <h3>Tutustu hinnastoomme!</h3>
+<table class="table">
+  <thead id="taulukko">
+    <tr>
+      <th scope="col">Tuote</th>
+      <th scope="col">Koko</th>
+      <th scope="col">Hinta</th>
+    </tr>
+  </thead>
+  <tbody class="table-group-divider">
+      <tr id="taulukko2">
+      <td>Kermakakku</td>
+      <td>12cm</td>
+      <td>15€</td>
+      </tr>
+      <tr>
+      <td>Suklaakakku</td>
+      <td>20cm</td>
+      <td>30€</td>
+      </tr>
+      <tr>
+        <td>Britakakku</td>
+        <td>pellillinen</td>
+        <td>50€</td>
+    </tr>
+  </tbody>
+</table>
+<form action="#">
+  <fieldset>
+    <legend>Tee tilaus, täyttämällä lomake.</legend>
+    <label for="fname">Nimi:</label><br>
+    <input type="text" id="fname" name="fname" required><br><br>
+    <label for="lname">Sukunimi:</label><br>
+    <input type="text" id="lname" name="lname" required><br><br>
+    <label for="tel">Puhelinnumero:</label><br>
+    <input type="tel" id="tel" name="tel" required><br><br>
+    <label for="email">Sähköposti:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="comment">Tilauksen tiedot:</label><br>
+    <textarea id="comment" name="comment" rows="4" cols="80"></textarea><br><br>
+    <input type="submit" value="Lähetä">
+  </fieldset>
+</form>
+<footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Herrkkusivu, Inc</p>
+  </footer>
